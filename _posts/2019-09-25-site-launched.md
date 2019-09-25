@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Manoj Kengudelu, Testing Guy, Launches Site"
+title: "Launches Site"
 date: 2019-09-25
 ---
 
