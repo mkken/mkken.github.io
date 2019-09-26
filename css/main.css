@@ -38,8 +38,12 @@ ul.posts {
     margin: 20px auto 40px;
     font-size: 1em;
     color: #333;
+    font-family:'Montserrat', serif;
 }
 
 ul.posts li {
     list-style: none;
+    font-family:'Montserrat', serif;
+    color: #333;
+
 }
