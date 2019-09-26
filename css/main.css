@@ -1,10 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
 body {
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Montserrat', serif;
+    font-family:'Tangerine', serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -22,7 +22,7 @@ a:hover {
 }
 h1 {
     font-size: 2em;
-    font-family:'Montserrat', serif;;
+    font-family:'Tangerine', serif;;
 }
 p {
     font-size: 1em;
