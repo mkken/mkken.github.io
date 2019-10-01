@@ -1,5 +1,5 @@
 ---
-layout: photos
+layout: photo
 title: "Python Generator Objects"
 date: 2018-01-01
 ---
