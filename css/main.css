@@ -4,8 +4,6 @@ body {
     width: 70%;
 }
 
-html, body { height: 100%; }
-
 nav ul, footer ul {
     font-family:'Montserrat', serif;
     padding: 0px;
