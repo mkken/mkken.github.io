@@ -1,7 +1,7 @@
 ---
 layout: photo
-title: "Python Generator Objects"
-date: 2018-01-01
+title: "Python Generator Object"
+date: 2019-01-01
 ---
 
 ![image alt <](/img/Generator_027.png)
