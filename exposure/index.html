@@ -7,6 +7,6 @@ title: ..and Some Stories
 	<ul class="photos">
 
 	  {% for photo in site.photos %}
-	    <li><span>{{ photo.date | date_to_string }}</span> » <a href="{{ photo.url }}" title="{{ photo.title }}">{{ photo.title }}</a></li>
+	    <li><span>{{ photo.date | date_to_string }}</span></li>
 	  {% endfor %}
 	</ul>
