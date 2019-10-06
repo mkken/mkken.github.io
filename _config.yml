@@ -1,4 +1,3 @@
 name: Manoj Kengudelu, The Testing Guy!
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-permalink: /exposure/:year/:month/:day/:title
