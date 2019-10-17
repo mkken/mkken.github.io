@@ -6,7 +6,7 @@ date: 2019-10-17
 
 Writing down simple command to copy files from stopped docker containers if you are not used volume mapping.
 
-Run docker ps -a** to list the active/inactive containers
+Run docker ps -a to list the active/inactive containers
 ![](/img/dock1.png =100x20)
 
 Run following command to copy the desired content to host machine.
