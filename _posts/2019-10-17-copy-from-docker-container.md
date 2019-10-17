@@ -9,12 +9,11 @@ Writing down simple command to copy files from stopped docker containers if you 
 Run ```docker ps -a``` to list the active/inactive containers
 
 
-<img src="/img/dock1.png" width="840" height="103">
+<img src="/img/dock1.png">
 
 
 Run following command to copy the desired content to host machine.
 
 ```docker cp <CONTAINER_ID>:<LOCATION OF FILE INSIDE THE CONTAINER>/<FILE_NAME> <HOST_PATH_TARGET>```
-
 
 <img src="/img/dock2.png">
