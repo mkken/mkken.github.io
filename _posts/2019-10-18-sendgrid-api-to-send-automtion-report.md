@@ -12,6 +12,8 @@ create account at [Sendgrid](https://app.sendgrid.com)  and generate api token. 
 <span style="color:blue">Project Background:</span>
 Its a page object framework using Selenium Webdriver and TestNG. Tests are triggered with the help of a docker container and Kubernetes. Following dependencies are required to generate extent reports and send it as emails
 
+
+
 ```
 <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
 <dependency>
@@ -28,7 +30,9 @@ Its a page object framework using Selenium Webdriver and TestNG. Tests are trigg
 </dependency>
 ```
 
+
 Below code, the snippet is class which is used to send the report from its location via email. Make sure to update required fields like sender, recipient address and API key
+
 
 
 ```
