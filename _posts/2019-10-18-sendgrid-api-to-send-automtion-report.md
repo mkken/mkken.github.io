@@ -14,7 +14,7 @@ Its a page object framework using Selenium Webdriver and TestNG. Tests are trigg
 
 
 
-```
+``` xml
 <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
 <dependency>
     <groupId>com.relevantcodes</groupId>
@@ -35,7 +35,7 @@ Below code, the snippet is class which is used to send the report from its locat
 
 
 
-```
+``` java
 public class SendReport {
 
 
