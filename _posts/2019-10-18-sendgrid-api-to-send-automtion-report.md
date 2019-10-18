@@ -4,10 +4,10 @@ title: "QA Automation: Send Automation Report Using Sendgrid Email API"
 date: 2019-10-18
 ---
 
-This article explains the implementation of how to send an Automation execution report using [Sendgrid](https://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/index.html). Implementing sending email option on test completion is good when stakeholders are interested in following up and understanding how stable is the application.   
+This article explains the implementation of how to send an Automation execution report using [<span style="color:orange">Sendgrid</span>](https://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/index.html). Implementing sending email option on test completion is good when stakeholders are interested in following up and understanding how stable is the application.   
 
 <span style="color:blue">Pre-requisite</span>:
-create account at [Sendgrid](https://app.sendgrid.com)  and generate api token. Sendgrid provides different plans to opt for. For testing, You can opt for free 100 emails/day plan.
+create account at [<span style="color:orange">Sendgrid</span>](https://app.sendgrid.com)  and generate api token. Sendgrid provides different plans to opt for. For testing, You can opt for free 100 emails/day plan.
 
 <span style="color:blue">Project Background:</span>
 Its a page object framework using Selenium Webdriver and TestNG. Tests are triggered with the help of a docker container and Kubernetes. Following dependencies are required to generate extent reports and send it as emails
