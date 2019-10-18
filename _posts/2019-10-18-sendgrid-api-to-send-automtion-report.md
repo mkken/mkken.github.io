@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "QA Automation: Send Automation Report Using Sendgrid Email API"
+title: "QA Automation: Send Automation Report Using SendGrid Email API"
 date: 2019-10-18
 ---
 
