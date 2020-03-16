@@ -6,10 +6,10 @@ date: 2020-03-16
 
 
 One of the challenges while running web automation as a package in a docker container which is orchestrated by Kubernetes is to view and understand what is happening while tests are running. Especially when your tests are executed in a cloud environment like AWS, you need to have a way to see your test logs.
-</br>
+
 
 This write-up puts a light on how can it was done by sending logs to Logstash endpoint which is configured to send the logs to Kibana. Following is my setup to run the web automation tests.
-</br>
+
 
 
 - Selenium WebDriver
