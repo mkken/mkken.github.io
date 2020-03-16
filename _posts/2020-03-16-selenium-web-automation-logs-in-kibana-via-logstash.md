@@ -19,7 +19,7 @@ This write-up puts a light on how can it was done by sending logs to Logstash en
 - Logstash endpoint.
 </br>
 
-###### Add following dependencies to pom.xml
+#### Add following dependencies to pom.xml
 
 
 ``` xml
@@ -53,9 +53,9 @@ This write-up puts a light on how can it was done by sending logs to Logstash en
 ```
 
 
-###### Create logback.xml under /src/main/resources
+#### Create logback.xml under /src/main/resources
 
-###### Add the following to logback.xml
+#### Add the following to logback.xml
 
 
 ``` xml
@@ -92,13 +92,13 @@ This write-up puts a light on how can it was done by sending logs to Logstash en
 
 ```
 
-###### Create a logger instance
+#### Create a logger instance
 
 ``` java
 public Logger logger = LoggerFactory.getLogger(BaseTest.class);
 ```
 
-###### Use it in the project
+#### Use it in the project
 
 ``` java
 public class TestListener extends BaseTest implements ITestListener {
@@ -165,6 +165,6 @@ public class TestListener extends BaseTest implements ITestListener {
 }
 ```
 
-###### Kibana logs will look like this:
+#### Kibana logs will look like this:
 
 <img src="/img/auto.png">
