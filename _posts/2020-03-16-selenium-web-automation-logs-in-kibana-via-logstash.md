@@ -17,7 +17,6 @@ This write-up puts a light on how can it was done by sending logs to Logstash en
 - Docker
 - Kubernetes
 - Logstash endpoint.
-</br>
 
 #### Add following dependencies to pom.xml
 
