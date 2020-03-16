@@ -92,13 +92,13 @@ This write-up puts a light on how can it was done by sending logs to Logstash en
 
 ```
 
-###### create a logger instance
+###### Create a logger instance
 
 ``` java
 public Logger logger = LoggerFactory.getLogger(BaseTest.class);
 ```
 
-###### use it in the project
+###### Use it in the project
 
 ``` java
 public class TestListener extends BaseTest implements ITestListener {
