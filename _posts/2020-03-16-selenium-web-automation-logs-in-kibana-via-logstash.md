@@ -10,11 +10,11 @@ One of the challenges while running web automation as a package in a docker cont
 
 This write-up puts a light on how can it was done by sending logs to Logstash endpoint which is configured to send the logs to Kibana. Following is my setup to run the web automation tests.
 
-Selenium WebDriver
-TestNG
-Docker
-Kubernetes
-Logstash endpoint.
+- Selenium WebDriver
+- TestNG
+- Docker
+- Kubernetes
+- Logstash endpoint.
 
 
 Add following dependencies to pom.xml
