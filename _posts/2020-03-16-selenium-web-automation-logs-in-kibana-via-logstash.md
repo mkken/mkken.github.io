@@ -6,11 +6,10 @@ date: 2020-03-16
 
 
 One of the challenges while running web automation as a package in a docker container which is orchestrated by Kubernetes is to view and understand what is happening while tests are running. Especially when your tests are executed in a cloud environment like AWS, you need to have a way to see your test logs.
-<br>
-
+</br>
 
 This write-up puts a light on how can it was done by sending logs to Logstash endpoint which is configured to send the logs to Kibana. Following is my setup to run the web automation tests.
-<br>
+</br>
 
 
 - Selenium WebDriver
@@ -18,9 +17,9 @@ This write-up puts a light on how can it was done by sending logs to Logstash en
 - Docker
 - Kubernetes
 - Logstash endpoint.
+</br>
 
-
-Add following dependencies to pom.xml
+###### Add following dependencies to pom.xml
 
 
 ``` xml
@@ -54,11 +53,10 @@ Add following dependencies to pom.xml
 ```
 
 
-Create logback.xml under /src/main/resources
-<br>
+###### Create logback.xml under /src/main/resources
 
-Add the following to logback.xml
-<br>
+###### Add the following to logback.xml
+
 
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -94,13 +92,13 @@ Add the following to logback.xml
 
 ```
 
-create a logger instance
+###### create a logger instance
 
 ``` java
 public Logger logger = LoggerFactory.getLogger(BaseTest.class);
 ```
 
-use it in the project
+###### use it in the project
 
 ``` java
 public class TestListener extends BaseTest implements ITestListener {
@@ -167,6 +165,6 @@ public class TestListener extends BaseTest implements ITestListener {
 }
 ```
 
-Kibana logs will look like this:
+###### Kibana logs will look like this:
 
 <img src="/img/auto.png">
